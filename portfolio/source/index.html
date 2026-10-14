@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#05090c">
+    <meta name="description" content="Egor's portfolio. Backend software, Rust, Axum, and ideas made real.">
+    <title>EGOR — Software Developer</title>
+    <link rel="icon" href="../icons/backend.png" type="image/png">
+    <link rel="preload" href="../fonts/sans-regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../fonts/sans-semibold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <script src="content.js" defer></script>
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#about-me">Skip to content</a>
+    <main>
+      <section class="hero" id="general" aria-labelledby="hero-title">
+        <img class="hero-image" src="../media/launch-background.png" alt="" width="2088" height="1194" fetchpriority="high">
+        <header class="site-header">
+          <a class="brand" href="#general" aria-label="Egor — home">
+            <span class="brand-effects" aria-hidden="true">
+              <img class="brand-text-glow" src="../media/logo-text-glow.png" alt="">
+              <img class="brand-orbit-glow" src="../media/logo-orbit-glow.png" alt="">
+              <img class="brand-orbit-shadow" src="../media/logo-orbit-shadow.png" alt="">
+              <img class="brand-star-shadow" src="../media/logo-star-shadow.png" alt="">
+              <img class="brand-star-glow" src="../media/logo-star-glow.png" alt="">
+            </span>
+            <img class="brand-logo" src="../icons/egor-logo.svg" alt="" width="49" height="29">
+          </a>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+            <span></span><span></span><span></span>
+          </button>
+          <nav class="site-nav" id="main-nav" aria-label="Main navigation">
+            <a href="#general">GENERAL</a>
+            <a href="#about-me">ABOUT ME</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#contacts">CONTACTS</a>
+          </nav>
+          <button class="login-button" type="button" data-open-dialog="login-dialog">LOGIN</button>
+        </header>
+        <div class="hero-copy container">
+          <p class="hero-eyebrow">Do a high perfomance software</p>
+          <h1 id="hero-title"><span>WHICH COMING TO</span><span>STREAD A HEAD</span></h1>
+          <p class="hero-description">Developing of high perfomance backend and artifical<br class="desktop-break"> intellegence that made reality from ideas</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">MY PROJECTS <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#contacts">CONTACT ME</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="work-area">
+        <section class="specialization container" id="about-me" aria-labelledby="specialization-title">
+          <p class="eyebrow">SPECIALIZATION</p>
+          <h2 class="section-title" id="specialization-title">FROM IDEAS TO REALIZATION</h2>
+          <div class="specialty" id="skills">
+            <div class="specialty-heading">
+              <span class="icon-frame" aria-hidden="true"><img src="../icons/backend.png" alt="" width="128" height="128" loading="lazy"></span>
+              <h3>BACKEND</h3>
+            </div>
+            <div class="backend-copy">
+              <p>I have a great experience into programming high<br class="desktop-break"> perfomance software for website backend, my case:</p>
+              <ul>
+                <li>Rust language;</li>
+                <li>AxumWEB Crate;</li>
+                <li>PostrageSQL;</li>
+                <li>SQLX Crate;</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects container" id="projects" aria-labelledby="projects-title">
+          <div class="projects-heading">
+            <div>
+              <p class="eyebrow">MY PROJECT BOARD</p>
+              <h2 class="section-title" id="projects-title">PROJECTS THAT TELL MORE THEN WORDS</h2>
+            </div>
+            <button class="see-more" type="button" data-open-dialog="projects-dialog">
+              <img src="../media/see-more-glow.png" alt="" aria-hidden="true" width="204" height="30" loading="lazy">
+              <span>SEE MORE <span aria-hidden="true">→</span></span>
+            </button>
+          </div>
+          <!-- The PDF has three empty cards. Add real projects in content.js. -->
+          <div class="project-grid" id="project-grid">
+            <div class="project-card project-placeholder" aria-hidden="true"><div class="project-visual"></div><div class="project-caption"></div></div>
+            <div class="project-card project-placeholder" aria-hidden="true"><div class="project-visual"></div><div class="project-caption"></div></div>
+            <div class="project-card project-placeholder" aria-hidden="true"><div class="project-visual"></div><div class="project-caption"></div></div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="contact-section" id="contacts" aria-labelledby="contact-title">
+        <img class="contact-glow" src="../media/contact-glow.png" alt="" aria-hidden="true" width="3548" height="1558" loading="lazy">
+        <img class="footer-brand" src="../media/footer-brand.png" alt="" aria-hidden="true" width="1024" height="448" loading="lazy">
+        <div class="contact-content">
+          <div class="contact-copy">
+            <p class="eyebrow">SIMPLE</p>
+            <h2 class="section-title" id="contact-title"><span>IF YOU HAVE ANY IDEAS THAT I CAN DO,</span><span>JUST CONTACT ME WITH HELP ICONS ON</span><span>THE RIGHT, &lt;3</span></h2>
+          </div>
+          <div class="contact-links">
+            <div class="social-links" aria-label="Social contact options">
+              <button type="button" class="social-link" data-social="instagram" aria-label="Contact options for Instagram"><img src="../icons/instagram.svg" alt="" width="23" height="23" loading="lazy"></button>
+              <a class="social-link" data-social="whatsapp" href="https://wa.me/77011060859" aria-label="Contact on WhatsApp" target="_blank" rel="noopener noreferrer"><img src="../icons/whatsapp.svg" alt="" width="23" height="23" loading="lazy"></a>
+              <button type="button" class="social-link" data-social="linkedin" aria-label="Contact options for LinkedIn"><img src="../icons/linkedin.svg" alt="" width="23" height="23" loading="lazy"></button>
+            </div>
+            <address class="contact-address">
+              <a class="email-link" href="mailto:support@eversion.me">E-mail: <span data-email>support@eversion.me</span></a>
+              <a class="phone-link" href="tel:+77011060859" data-phone>+7 701 106 08 59</a>
+            </address>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <dialog class="site-dialog" id="login-dialog" aria-labelledby="login-title">
+      <button class="dialog-close" type="button" data-close-dialog aria-label="Close sign-in window">×</button>
+      <p class="dialog-eyebrow">EGOR / ACCESS</p>
+      <h2 id="login-title">Welcome back.</h2>
+      <p class="dialog-intro">Sign in to your account.</p>
+      <form id="login-form">
+        <label for="login-email">Email</label>
+        <input id="login-email" name="email" type="email" placeholder="you@example.com" autocomplete="username" required maxlength="254">
+        <label for="login-password">Password</label>
+        <input id="login-password" name="password" type="password" autocomplete="current-password" required maxlength="128">
+        <button class="dialog-action" type="submit">CONTINUE <span aria-hidden="true">→</span></button>
+        <p class="form-feedback" id="login-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </dialog>
+
+    <dialog class="site-dialog" id="projects-dialog" aria-labelledby="project-dialog-title">
+      <button class="dialog-close" type="button" data-close-dialog aria-label="Close project board">×</button>
+      <p class="dialog-eyebrow">EGOR / PROJECT BOARD</p>
+      <h2 id="project-dialog-title">Ideas made real.</h2>
+      <div class="project-list" id="all-projects"><p class="dialog-intro">Project details are coming soon. Have an idea? Let's talk.</p></div>
+      <a class="dialog-action" href="#contacts" data-close-on-navigate>CONTACT ME <span aria-hidden="true">→</span></a>
+    </dialog>
+
+    <dialog class="site-dialog" id="contact-dialog" aria-labelledby="contact-dialog-title">
+      <button class="dialog-close" type="button" data-close-dialog aria-label="Close contact options">×</button>
+      <p class="dialog-eyebrow">EGOR / CONTACT</p>
+      <h2 id="contact-dialog-title">Let's build something.</h2>
+      <p class="dialog-intro">Reach me directly by email or WhatsApp.</p>
+      <a class="dialog-action" href="mailto:support@eversion.me" data-contact-email>WRITE AN EMAIL <span aria-hidden="true">→</span></a>
+      <a class="dialog-secondary" href="https://wa.me/77011060859" data-contact-whatsapp target="_blank" rel="noopener noreferrer">Open WhatsApp</a>
+    </dialog>
+    <noscript><p class="noscript-note">Email and phone links work without JavaScript. Enable JavaScript to open navigation dialogs.</p></noscript>
+  </body>
+</html>

@@ -1,0 +1,401 @@
+{
+  "source": "the_portfolio(1).pdf",
+  "page": {
+    "width": 1024,
+    "height": 1737
+  },
+  "fonts": [
+    {
+      "family": "Portfolio Contact Regular",
+      "files": [
+        "contact-regular.woff",
+        "contact-regular.ttf"
+      ],
+      "characters": "+-.0156789:@Eaeilmnoprstuv",
+      "glyph_count": 28
+    },
+    {
+      "family": "Portfolio Mono Regular",
+      "files": [
+        "mono-regular.woff",
+        "mono-regular.ttf"
+      ],
+      "characters": ",:;ABCEILPQRSWXabcdefghiklmnoprstuvwxy",
+      "glyph_count": 40
+    },
+    {
+      "family": "Portfolio Sans Regular",
+      "files": [
+        "sans-regular.woff",
+        "sans-regular.ttf"
+      ],
+      "characters": "ABCDEGIJKLMNOPRSTUYZabcdeffighiklmnoprstvwy",
+      "glyph_count": 44
+    },
+    {
+      "family": "Portfolio Sans Semibold",
+      "files": [
+        "sans-semibold.woff",
+        "sans-semibold.ttf"
+      ],
+      "characters": ",3<ACDEFGHIJLMNOPRSTUVWYZ→",
+      "glyph_count": 28
+    }
+  ],
+  "images": [
+    {
+      "file": "media/logo-star-shadow.png",
+      "width": 83,
+      "height": 85,
+      "pdf_xref": 372,
+      "transparency": true
+    },
+    {
+      "file": "media/logo-orbit-shadow.png",
+      "width": 70,
+      "height": 62,
+      "pdf_xref": 364,
+      "transparency": true
+    },
+    {
+      "file": "media/logo-star-glow.png",
+      "width": 83,
+      "height": 85,
+      "pdf_xref": 368,
+      "transparency": true
+    },
+    {
+      "file": "media/logo-orbit-glow.png",
+      "width": 160,
+      "height": 134,
+      "pdf_xref": 378,
+      "transparency": true
+    },
+    {
+      "file": "media/logo-text-glow.png",
+      "width": 271,
+      "height": 200,
+      "pdf_xref": 382,
+      "transparency": true
+    },
+    {
+      "file": "media/launch-background.png",
+      "width": 2088,
+      "height": 1194,
+      "pdf_xref": 386,
+      "transparency": true
+    },
+    {
+      "file": "media/contact-glow.png",
+      "width": 3548,
+      "height": 1558,
+      "pdf_xref": 80,
+      "transparency": true
+    },
+    {
+      "file": "media/see-more-glow.png",
+      "width": 204,
+      "height": 30,
+      "pdf_xref": 342,
+      "transparency": true
+    },
+    {
+      "file": "icons/backend.png",
+      "width": 128,
+      "height": 128,
+      "pdf_xref": 348,
+      "transparency": true
+    }
+  ],
+  "text_runs": [
+    {
+      "mcid": 0,
+      "text": "General",
+      "size_px": 8.0,
+      "baseline": [
+        147.0,
+        43.0
+      ]
+    },
+    {
+      "mcid": 1,
+      "text": "About me",
+      "size_px": 8.0,
+      "baseline": [
+        227.0,
+        43.0
+      ]
+    },
+    {
+      "mcid": 2,
+      "text": "projects",
+      "size_px": 8.0,
+      "baseline": [
+        312.0,
+        43.0
+      ]
+    },
+    {
+      "mcid": 3,
+      "text": "skills",
+      "size_px": 8.0,
+      "baseline": [
+        396.0,
+        43.0
+      ]
+    },
+    {
+      "mcid": 4,
+      "text": "contacts",
+      "size_px": 8.0,
+      "baseline": [
+        464.0,
+        43.0
+      ]
+    },
+    {
+      "mcid": 5,
+      "text": "login",
+      "size_px": 8.0,
+      "baseline": [
+        930.0,
+        43.0
+      ]
+    },
+    {
+      "mcid": 6,
+      "text": "Do a high perfomance software",
+      "size_px": 12.0,
+      "baseline": [
+        50.0,
+        193.0
+      ]
+    },
+    {
+      "mcid": 7,
+      "text": "Which coming to ",
+      "size_px": 40.0,
+      "baseline": [
+        50.0,
+        243.0
+      ]
+    },
+    {
+      "mcid": 7,
+      "text": "stread a head ",
+      "size_px": 40.0,
+      "baseline": [
+        50.0,
+        291.0
+      ]
+    },
+    {
+      "mcid": 8,
+      "text": "Developing of high perfomance backend and artifical ",
+      "size_px": 12.0,
+      "baseline": [
+        50.0,
+        317.0
+      ]
+    },
+    {
+      "mcid": 8,
+      "text": "intellegence that made reality from ideas ",
+      "size_px": 12.0,
+      "baseline": [
+        50.0,
+        331.0
+      ]
+    },
+    {
+      "mcid": 9,
+      "text": "my projects →",
+      "size_px": 10.0,
+      "baseline": [
+        75.0,
+        383.0
+      ]
+    },
+    {
+      "mcid": 10,
+      "text": "contact me",
+      "size_px": 10.0,
+      "baseline": [
+        234.0,
+        383.0
+      ]
+    },
+    {
+      "mcid": 11,
+      "text": "SPECIALIZATION",
+      "size_px": 14.0,
+      "baseline": [
+        49.0,
+        626.5
+      ]
+    },
+    {
+      "mcid": 12,
+      "text": "from ideas to realization",
+      "size_px": 24.0,
+      "baseline": [
+        49.0,
+        662.0
+      ]
+    },
+    {
+      "mcid": 13,
+      "text": "backend",
+      "size_px": 24.0,
+      "baseline": [
+        125.0,
+        726.0
+      ]
+    },
+    {
+      "mcid": 14,
+      "text": "I have a great experience into programming high ",
+      "size_px": 16.0,
+      "baseline": [
+        49.0,
+        782.0
+      ]
+    },
+    {
+      "mcid": 14,
+      "text": "perfomance software for website backend, my case:\n",
+      "size_px": 16.0,
+      "baseline": [
+        49.0,
+        803.0
+      ]
+    },
+    {
+      "mcid": 14,
+      "text": "Rust language;\n",
+      "size_px": 16.0,
+      "baseline": [
+        68.52,
+        824.0
+      ]
+    },
+    {
+      "mcid": 14,
+      "text": "AxumWEB Crate;\n",
+      "size_px": 16.0,
+      "baseline": [
+        68.52,
+        845.0
+      ]
+    },
+    {
+      "mcid": 14,
+      "text": "PostrageSQL;\n",
+      "size_px": 16.0,
+      "baseline": [
+        68.52,
+        866.0
+      ]
+    },
+    {
+      "mcid": 14,
+      "text": "SQLX Crate;",
+      "size_px": 16.0,
+      "baseline": [
+        68.52,
+        887.0
+      ]
+    },
+    {
+      "mcid": 15,
+      "text": "my project board",
+      "size_px": 14.0,
+      "baseline": [
+        50.0,
+        977.5
+      ]
+    },
+    {
+      "mcid": 16,
+      "text": "projects that tell more then words",
+      "size_px": 24.0,
+      "baseline": [
+        50.0,
+        1013.0
+      ]
+    },
+    {
+      "mcid": 17,
+      "text": "see more →",
+      "size_px": 14.0,
+      "baseline": [
+        876.0477,
+        977.0
+      ]
+    },
+    {
+      "mcid": 18,
+      "text": "see more →",
+      "size_px": 14.0,
+      "baseline": [
+        876.0477,
+        977.0
+      ]
+    },
+    {
+      "mcid": 19,
+      "text": "simple",
+      "size_px": 14.0,
+      "baseline": [
+        39.0,
+        1336.0
+      ]
+    },
+    {
+      "mcid": 20,
+      "text": "if you have any ideas that i can do, ",
+      "size_px": 24.0,
+      "baseline": [
+        39.0,
+        1371.0
+      ]
+    },
+    {
+      "mcid": 20,
+      "text": "just contact me with help icons on ",
+      "size_px": 24.0,
+      "baseline": [
+        39.0,
+        1400.0
+      ]
+    },
+    {
+      "mcid": 20,
+      "text": "the right, <3",
+      "size_px": 24.0,
+      "baseline": [
+        39.0,
+        1429.0
+      ]
+    },
+    {
+      "mcid": 21,
+      "text": "E-mail: support@eversion.me",
+      "size_px": 16.0,
+      "baseline": [
+        761.5781,
+        1381.0
+      ]
+    },
+    {
+      "mcid": 22,
+      "text": "+7 701 106 08 59",
+      "size_px": 16.0,
+      "baseline": [
+        858.3281,
+        1410.0
+      ]
+    }
+  ],
+  "font_note": "These are new, limited font subsets reconstructed from the actual visible vector contours. The PDF contains no original font files or reliable family names. Only source glyphs are included; missing characters use CSS fallbacks."
+}
